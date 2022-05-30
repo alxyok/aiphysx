@@ -1,10 +1,15 @@
 html {
     background-color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
-body {
-    width: 650px;
+body, section {
     margin: 0 auto;
+}
+.flow-small {
+    width: 650px;
+}
+.flow-large {
+    width: 800px;
 }
 h1 {
     font-size: 35px;
@@ -12,6 +17,17 @@ h1 {
 h2 {
     font-size: 28px;
 }
+h3 {
+    font-style: bold;
+}
 p {
-    line-height: 150%;
+    line-height: 180%;
+}
+.threeway > li {
+    width: 27%;
+    margin: 3%;
+    float: left;
+}
+.threeway p {
+    font-size: 13px;
 }
